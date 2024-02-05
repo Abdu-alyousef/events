@@ -1,10 +1,10 @@
 
 
 import classes from './event-item.module.css'
-import Button from "@/ui/button";
-import DateIcon from "@/ui/icons/date-icon";
-import AddressIcon from "@/ui/icons/address-icon";
-import ArrowRightIcon from "@/ui/icons/arrow-right-icon";
+import Button from '../ui/button';
+import DateIcon from '../icons/date-icon';
+import AddressIcon from '../icons/address-icon';
+import ArrowRightIcon	 from '../icons/arrow-right-icon';
 
 export default function EventItem(props) {
     const {title, image, date, location, id} = props;
